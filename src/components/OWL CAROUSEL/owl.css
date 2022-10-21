@@ -1,0 +1,11 @@
+.carous{
+    margin-top: 5rem;
+}
+.carouselDivs>img{
+    transform: scale(1);
+    transition: all 5s;
+}
+
+.active .carouselDivs>img{
+    transform: scale(1.2);
+}

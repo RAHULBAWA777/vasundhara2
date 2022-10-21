@@ -1,0 +1,205 @@
+.bgImage{
+    position: fixed;
+    object-fit: cover;
+    z-index: -1;
+}
+/*##############################################         ABOUT SECTION CSS           ################################################### */
+
+.aboutMainDiv{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* column-gap: 50px; */
+    padding: 0 100px;
+}
+.aboutLeft{
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 3rem;
+}
+.aboutLeft>img{
+   
+}
+.aboutRight{
+    /* background-color: rgb(248, 161, 48); */
+    padding: 6rem;
+    text-align: left;
+}
+
+/*##############################################         Experience SECTION CSS           ################################################### */
+.expMainDiv{
+    background-color: antiquewhite;
+    display: flex;
+    padding: 90px 100px 190px;
+    background: #f5f0e9;
+    position: relative;
+}
+.expImage{
+    background-color: aquamarine;
+    position: relative;
+}
+.expImage>img{
+    width: 40rem;
+    position: relative;
+}
+.expYears{
+    position: absolute;
+    left: 20px;
+    top: 510px;
+    height: 172px;
+    width: 270px;
+    background: #eddd5e;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.span1{
+    font-size: 50px;
+}
+.expSlogans{
+    /* position: absolute; */
+    background-color: aqua;
+    padding: 60px 60px 60px;
+    margin-top: 120px;
+    margin-left: -149px;
+    border-radius: 5px;
+    z-index: 2;
+}
+.slogan1{
+    text-align: justify;
+}
+.slogan1>p{
+font-size: 20px;
+}
+.span2{
+    color: var(--dullGreen);
+}
+.span3{
+    font-size: 30px;
+    color: var(--Ggrey);
+}
+.span4{
+    font-size: 30px;
+}
+
+/*##############################################         VENTURES SECTION CSS           ################################################### */
+.venturesMainDiv{
+    text-align: center;
+    padding: 5rem 5rem;
+    background-color: white;
+}
+
+.venturesListCards{
+    padding: 2rem 5rem;
+    background-color: #ca964e;
+    display: flex;
+   justify-content: space-between;
+}
+.venturesCard{
+    background-color: #eddd5e;
+    max-width: 20rem;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+}
+.venturesMoreButton{
+  margin-top: 20px;
+  background-color:black ;
+  color: white;
+  padding: 9px;
+  font-size: 16px;
+  border: 2px solid transparent;
+}
+.venturesMoreButton:hover{
+  background-color:transparent ;
+  color: black;
+  border: 2px solid black;
+  transition: 500ms all;
+}
+.hh{
+    height: 1px;
+    background-color: rgb(134, 134, 134);
+    border: none;
+    margin: 10px 0;
+}
+/*##############################################         Faded Image  SECTION CSS           ################################################### */
+
+.fadedImageMainDiv{
+    position: relative;
+}
+.fadedImageMainDiv>img{
+    width: 100%;
+    height: 75vh;
+    
+    /* position: fixed; */
+}
+.blurDiv{
+    background-color: rgb(245,240,233);
+    position: absolute;
+    top:0;
+    width: 50%;
+    height: 100%;
+}
+.blurDiv{
+    box-shadow: rgb(245,240,233) 122.4px 0px 333.2px;
+}
+.blurDivInner{
+    /* background-color: #ca964e; */
+    width: 80%;
+    margin: 15% auto;
+}
+
+/*##############################################            COMPLETED  VENTURES SECTION CSS           ################################################### */
+
+.completedVentures-Main-Div{
+    display: grid;
+    grid-template-columns: .5fr 1fr 1fr;
+    column-gap: 10px;
+    padding: 5rem 5rem;
+    background-color: white;
+}
+
+.completedVentures-inner-div{
+    background-color: white;
+}
+.completedVenturesUL>h2{
+    line-height: 6em;
+}
+.completedVenturesUL>li{
+    line-height: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@         MEDIA QUERIES           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* 
+@media (max-width: 1300px) {
+    .expYears{
+        bottom: 220px;
+    } */
+    /* .expSlogans{
+       
+        padding: 60px 60px 60px;
+        margin-top: 20px;
+        margin-left: -149px;
+        border-radius: 5px;
+        z-index: 2;
+    } */
+/* } */

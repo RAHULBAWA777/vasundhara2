@@ -173,7 +173,17 @@ font-size: 20px;
 }
 .completedVenturesUL>li{
     line-height: 4rem;
+    position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.2em;
 }
+.completedVenturesUL>li:before {
+        content: "✴";
+        position: absolute;
+        left: 0;
+}
+
 
 
 

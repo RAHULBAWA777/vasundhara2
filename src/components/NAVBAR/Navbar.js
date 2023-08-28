@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import {FaFacebookSquare, FaInstagramSquare, FaPhone} from 'react-icons/fa'
 import {GiHamburgerMenu} from "react-icons/gi"
 import './navbar.css'
-import brandLogo from '../../images/brandLogo.png'
+import brandLogo from '../../images/BBr/bbr.png'
 
 const Navbar = () => {
     const [showMediaIons,setShowMediaIcons]= useState(false);

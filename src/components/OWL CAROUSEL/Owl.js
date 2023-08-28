@@ -3,8 +3,8 @@ import "./owl.css"
 import OwlCarousel from 'react-owl-carousel2';
 import 'react-owl-carousel2/lib/styles.css';
 import 'react-owl-carousel2/src/owl.theme.default.css';
-import owlImage1 from '../../images/VangoorPics/Arch.jpg'
-import owlImage2 from '../../images/VangoorPics/100FT ROAD 1.jpg'
+import owlImage1 from '../../images/carousel pics/1.jpg'
+import owlImage2 from '../../images/carousel pics/Open area 3.jpg'
 import owlImage3 from '../../images/VangoorPics/100FT ROAD 2.jpg'
 
 
